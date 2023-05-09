@@ -7,7 +7,7 @@ import AdsBanner from "@/components/AdsBanner.vue"
 <template>
   <Header />
 
-  <div class="container">
+  <div class="body-container">
     <AdsBanner />
 
     <RouterView />
@@ -15,9 +15,9 @@ import AdsBanner from "@/components/AdsBanner.vue"
   </div>
 </template>
 <style scoped>
-.container {
+div.body-container {
   padding: 50px;
-  padding-top: 0px !important;
+  padding-top: 10px !important;
 }
 </style>
 
